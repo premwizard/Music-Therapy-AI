@@ -1,0 +1,169 @@
+.recommend {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #111827;
+  color: #f3f4f6;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+}
+
+.recommend-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #60a5fa;
+}
+
+.recommend-subtitle {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #9ca3af;
+}
+
+.recommend-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recommend-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.recommend-form textarea,
+.recommend-form input[type="text"],
+.recommend-form input[type="number"],
+.recommend-form input[type="file"] {
+  background: #1f2937;
+  border: 1px solid #374151;
+  color: #f9fafb;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.recommend-form textarea:focus,
+.recommend-form input:focus {
+  border-color: #60a5fa;
+  outline: none;
+  box-shadow: 0 0 8px #2563eb;
+}
+
+.recommend-form button {
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.recommend-form button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.recommend-results {
+  margin-top: 30px;
+}
+
+.mood-display {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.mood-pill {
+  background: #10b981;
+  color: white;
+  border-radius: 50px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.modality-section {
+  margin-bottom: 12px;
+}
+
+.modality-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+}
+
+.song-card {
+  background: #1f2937;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s;
+}
+
+.song-card:hover {
+  transform: scale(1.02);
+}
+
+.song-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.song-artist {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.song-album {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.song-links {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+.btn.spotify {
+  background: #1db954;
+  color: white;
+}
+
+.btn.youtube {
+  background: #ff0000;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.error {
+  color: #f87171;
+  font-weight: 500;
+  background: rgba(239, 68, 68, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+}

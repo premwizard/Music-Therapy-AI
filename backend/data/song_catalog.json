@@ -1,0 +1,25 @@
+[
+  {"title": "Claude Debussy - Clair de Lune", "tags": "classical piano calm study"},
+  {"title": "Ludovico Einaudi - Nuvole Bianche", "tags": "piano instrumental calm study"},
+  {"title": "Yiruma - River Flows in You", "tags": "piano romantic calm"},
+  {"title": "Erik Satie - Gymnopédie No.1", "tags": "classical piano ambient"},
+  {"title": "Max Richter - On The Nature Of Daylight", "tags": "modern classical calm"},
+
+  {"title": "Pharrell Williams - Happy", "tags": "pop upbeat happy dance"},
+  {"title": "Katy Perry - Firework", "tags": "pop upbeat energetic"},
+  {"title": "Daft Punk - Get Lucky", "tags": "dance pop upbeat"},
+  {"title": "Mark Ronson - Uptown Funk", "tags": "funk pop dance party"},
+  {"title": "Bruno Mars - Treasure", "tags": "pop dance upbeat"},
+
+  {"title": "Billie Eilish - when the party's over", "tags": "indie sad melancholic slow"},
+  {"title": "Coldplay - The Scientist", "tags": "rock melancholic sad"},
+  {"title": "Bon Iver - Holocene", "tags": "indie folk melancholic"},
+  {"title": "Norah Jones - Don't Know Why", "tags": "jazz mellow calm"},
+  {"title": "Fleetwood Mac - Landslide", "tags": "folk rock reflective"},
+
+  {"title": "Lo-Fi Chillhop - Beats to Study To", "tags": "lo-fi chillhop instrumental study beats"},
+  {"title": "Nujabes - Luv(sic)", "tags": "lo-fi hiphop chill beats"},
+  {"title": "J Dilla - Two Can Win", "tags": "hiphop chilled beats"},
+  {"title": "Tomppabeats - Monday Loop", "tags": "lo-fi chill beats"},
+  {"title": "Jinsang - affection", "tags": "lo-fi mellow beats study"}
+]

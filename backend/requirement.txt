@@ -1,14 +1,20 @@
-# Core web framework
-Flask==2.3.3
-
-# Gemini API SDK
-google-generativeai==0.3.2
-
-# Environment variable management (optional but recommended)
-python-dotenv==1.0.0
-
-# For running Flask in production (optional)
+﻿Flask==2.3.3
+flask-cors>=4.0.1,<5.0
+python-dotenv>=1.0.1,<2.0
 gunicorn==21.2.0
+bcrypt==4.0.1
+PyJWT==2.8.0
+pymongo==4.8.0
+langchain==1.0.0
+langchain-core==1.3.2
+langchain-ollama>=0.0.1
+langchain-community==0.4.1
+requests>=2.31.0
 
-# Optional: CORS support if you build a frontend
-flask-cors==4.0.0
+# Optional dependencies for emotion analysis support.
+# Install deepface separately if you want image emotion detection.
+# deepface==0.0.99
+librosa>=0.10.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+SpeechRecognition>=3.8.1

@@ -1,0 +1,15 @@
+{
+  "prem": {
+    "password": "scrypt:32768:8:1$QyXKb18IAiXRptxg$24bf29c3ae4a8089f6928d26069ebe24d81e8009ded5c65cda312b26c7b3fd1d5f4f8914e3c20542349fc3a7b3efd22d2f341e0965350941edf411070d79d34a",
+    "meta": {
+      "displayName": "prem"
+    }
+  },
+  "testuser": {
+    "password": "scrypt:32768:8:1$7tslIPLmExFmGNa6$9627ddf775a68d9ddb40c9d6069b0cae46b847dec14b7015cc02614dd56b09a3df0d2cec9d5a06017cd6b8e199f0d1f1b81f94801e71fe4a54eedd2f7723d457",
+    "meta": {
+      "displayName": "Tester2",
+      "bio": "Updated bio"
+    }
+  }
+}
