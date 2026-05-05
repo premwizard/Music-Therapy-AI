@@ -1,0 +1,14 @@
+# Core web framework
+Flask==2.3.3
+
+# Gemini API SDK
+google-generativeai==0.3.2
+
+# Environment variable management (optional but recommended)
+python-dotenv==1.0.0
+
+# For running Flask in production (optional)
+gunicorn==21.2.0
+
+# Optional: CORS support if you build a frontend
+flask-cors==4.0.0

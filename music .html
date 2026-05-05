@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Personalized Music Therapy</title>
+  <!-- Tailwind CSS for modern styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-[Poppins] bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#334155] text-white min-h-screen flex items-center justify-center">
+
+  <!-- Main Card -->
+  <div class="w-[90%] max-w-md bg-white/10 backdrop-blur-md rounded-3xl p-8 shadow-2xl text-center transition-all">
+    <h1 class="text-3xl font-semibold mb-2">🎧 AI Personalized Music Therapy</h1>
+    <p class="text-gray-300 mb-6 text-sm">Enter your mood to get a personalized playlist</p>
+
+    <!-- Mood Input -->
+    <input id="mood" type="text" placeholder="Type your mood (happy, sad, calm, angry)"
+      class="w-full p-3 rounded-xl bg-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 mb-4">
+
+    <!-- Get Recommendation Button -->
+    <button onclick="getMusic()" 
+      class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 rounded-xl transition">
+      Get Recommendation
+    </button>
+
+    <!-- Output for Song -->
+    <div id="output" class="mt-6 text-lg"></div>
+
+    <!-- Logout Button -->
+    <button onclick="logoutUser()" 
+      class="mt-8 text-sm text-gray-300 underline hover:text-yellow-400">Logout</button>
+  </div>
+
+  <!-- Connect JS -->
+  <script src="script.js"></script>
+</body>
+</html>
